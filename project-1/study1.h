@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-10-28 19:21:13
- * @LastEditTime: 2020-10-28 19:44:37
+ * @LastEditTime: 2020-11-02 04:51:16
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /templete_study/project-1/study1.h
@@ -9,6 +9,7 @@
 #include <vector>
 #include <stdexcept>
 template <typename T>
+
 class Stack{  
     private:
         std::vector<T> elems;
