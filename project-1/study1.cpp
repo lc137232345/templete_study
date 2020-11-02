@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
         Stack<int> intStack;
         Stack<string> stringStack;
         intStack.push(7);
-        std::cout << intStack.top() << std::endl;
+        std::cout << intStack.top()  << std::endl;
         stringStack.push("hell world");
         std::cout << stringStack.top() << std::endl;
         stringStack.pop();
